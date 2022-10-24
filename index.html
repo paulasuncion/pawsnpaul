@@ -6,9 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws&Paul</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="/js/scripts.js"></script>
 </head>
 <body>
-    This is the start of creating a dog sitting website for myself.
+    
+
+<!-- Links & Navigation bar-->
+<nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">Paws&Paul</div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#user">Register|Login</a></li>
+      </div>
+    </ul>
+  </nav>
+
+<!--Title Logo of page-->
+    <div class="titlelogo">
+        <h1 style="text-align: center;"><b>Welcome to Paws and Paul!</b></h1>
+        <p style="text-align: center;">Bring your pup to be watched by a very passionate sitter!</p>
+    </div>
+
+<!--Slideshow of who we are-->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="/images/IMG_0841.JPG">
+      <div class="text">Paul and Bella</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="/images/IMG_7324.jpg">
+      <div class="text">Park</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="/images/IMG_7330.jpg">
+      <div class="text">Play</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
 </body>
 </html>
