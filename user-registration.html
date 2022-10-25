@@ -5,29 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Registration</title>
-    <style>
-        body {
-            background-color: #ffebcd;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <center>
+    
 
-    <h2>Create an account</h2>
+    <h2 class="register">Create an account</h2>
     <!--Need to create Action Page-->
             <form action="/">
                 <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
+                <input type="text" id="fname" name="fname" placeholder="John"><br>
     <!--learn how to make example text in entry fields faded/opaque/see through-->
                 <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe"><br>
+                <input type="text" id="lname" name="lname" placeholder="Doe"><br>
     
                 <label for="email">Email:</label><br>
                 <input type="text" id="email" name="email"><br>
     
                 <label for="uname">Username:</label><br>
-                <input type="text" id="uname" name="uname" value="JohnDoe123"><br>
+                <input type="text" id="uname" name="uname" placeholder="JohnDoe123"><br>
     
                 <label for="pw">Password:</label><br>
                 <input type="text" id="pw" name="pw"><br>
@@ -38,7 +34,7 @@
     
             </form>  
 
-    <h2>How did you hear about us?</h2>
+    <h2 class="register">How did you hear about us?</h2>
         <form>
             <input type="radio" id="Google">
             <label for="Google">Google Search</label><br>
@@ -58,9 +54,11 @@
 
             <form>
                 <input type="submit" value="submit">
+                <a href="/">Forgot Password</a>
             </form>
-         </center>
+         
 
+  
       
 </body>
 </html>
